@@ -1,0 +1,57 @@
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, a, address, em, img, ins, kbd, q, s, samp,
+small, strong, dl, dt, dd, fieldset, form, label, legend, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+li {
+	list-style-type: none;
+}
+table {
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-collapse: collapse;
+}
+a img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	display: block
+}
+
+input {
+	display: inline; 
+	margin: 0; 
+	padding: 0; 
+	vertical-align: middle
+}
+
+strong {
+	font-weight: bold
+}
+
+blockquote:before, 
+blockquote:after {
+	clear: both;
+}
+:focus {
+	outline: 0
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clear {
+	min-height: 1px;
+}
+* html .clear {
+	height: 1px;
+}

@@ -1,0 +1,54 @@
+/* sitemap */
+#sitemap ul {
+  margin: 0 0 0 1px;
+  padding: 0 0 0 3px;
+  background-image: url(../images/t1.gif);
+  background-repeat: repeat-y;
+	line-height:150%;
+}
+#sitemap ul li {
+  margin: 0;
+  padding: 0 0 0 14px;
+  list-style: none;
+  background-image: url(../images/t2.gif);
+  background-repeat: no-repeat;
+  background-position: -3px 0;
+}
+#sitemap ul li.last {
+  margin-bottom: 6px;
+  background-image: url(../images/t3.gif);
+  background-repeat: no-repeat;
+  background-position: -3px 9px;
+}
+/* sitemap_end */
+/* contact_form */
+#contact-form input,
+#contact-form textarea {
+	width: 232px;
+	color: #929292;
+	border:1px solid #dfdfdf;
+}
+#contact-form textarea {
+	overflow-y:hidden;
+}
+#hid_input {
+	border:none !important;
+}
+#contact-form p {
+	margin:8px 0;
+}
+.errors {
+	padding:5px;
+}
+#form_send {
+	background:transparent url(../images/form_send.gif) no-repeat scroll 0 0;
+	border:medium none;
+	color:#FFFFFF !important;
+	height:28px !important;
+	width:106px !important;
+	cursor:pointer;
+}
+p.send_button {
+	text-align: right;
+}
+/* sitemap_end */

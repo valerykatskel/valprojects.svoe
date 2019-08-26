@@ -1,0 +1,21 @@
+#kolyaska {
+	background: transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/kolyaska.png', sizingMethod='crop');
+}
+#veshalka {
+	background: transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/veshalka.png', sizingMethod='crop');
+}
+#logo a{
+	background: transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.png', sizingMethod='crop');
+	cursor: pointer;
+}
+#inner1-logo a{
+	background: transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.png', sizingMethod='crop');
+	cursor: pointer;
+}
+.left-menu-wr1 {
+margin-left:-12px;
+}
